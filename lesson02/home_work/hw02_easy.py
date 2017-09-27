@@ -13,6 +13,15 @@
 
 # Подсказка: воспользоваться методом .format()
 
+num = [ 1, 2, 3, 4, 5 ]
+fruit = [ 'banana', 'orange', 'apple', 'pineapple', 'strawberry' ]
+print("{}. {:>10}" .format(num[0], fruit[0]))						
+print("{}. {:>10}" .format(num[1], fruit[1]))		
+print("{}. {:>10}" .format(num[2], fruit[2]))
+print("{}. {:>10}" .format(num[3], fruit[3]))
+print("{}. {:>10}" .format(num[4], fruit[4]))
+
+
 
 # Задача-2:
 # Даны два произвольные списка.
